@@ -44,16 +44,18 @@ $ make deps
 $ make build
 ```
 
-```rust
-//The program accept 2 parameters where -input is the file where will be processed and -output will be the file name after processed and generated.
-//Will run the program
-$ make run
-```
     
  ```rust
 //Run Tests
 $ make test
  ```
+ 
+```rust
+//The program accept 2 parameters where -input is the file where will be processed and -output will be the file name after processed and generated.
+//Will run the program
+$ make run
+```
+
   
   Should appear for you in terminal:
   - Bytes Read
