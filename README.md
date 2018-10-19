@@ -38,7 +38,10 @@ Open terminal and navigate to the WordCount folder.
    > _Will run the program:_
 
    - `make run`
-
+   
+_The program accept 2 parameters where <b>-input</b> is the file where will be processed and  <b>-output</b> will be the file name after processed and generated!_
+   - go run main.go -input (Filename.txt) -output (Output filename.csv)
+    
   > _Run Tests:_
 
  -  `make test`
