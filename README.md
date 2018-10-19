@@ -25,20 +25,20 @@ Open terminal and type:
 Open terminal and navigate to the WordCount folder.
  `cd $HOME/go/src/WordCount`
  
- Type the following commands:
+ Type the following commands in terminal:
  
-   Will install Dep project management tool:
+   > _Will install Dep project management tool:_
 
    `make deps` 
 
-   Will build the project and receive all dependencies:
+   > _Will build the project and receive all dependencies:_
 
    `make build`
 
-   Will run the program:
+   > _Will run the program:_
 
    `make run`
 
-   Run Tests:
+  > _Run Tests:_
 
   `make test`
