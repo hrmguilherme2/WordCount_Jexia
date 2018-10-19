@@ -16,14 +16,14 @@ https://github.com/chrislusf/glow
     https://golang.org/doc/install?download=go1.11.1.darwin-amd64.pkg
 
    Once Golang installed, go to "Terminal" and type:
-          `export PATH=$PATH:$HOME/go/bin:$GOPATH/bin`
+          `$ export PATH=$PATH:$HOME/go/bin:$GOPATH/bin`
 
 <b>Step 2:</b>
  
 Download and copy the project in src folder, this folder is where golang was installed.
 
 Open terminal, type and copy:
- `open $HOME/go/src`
+ `$ open $HOME/go/src`
 
 
 
@@ -33,26 +33,27 @@ Open terminal and navigate to the WordCount folder.
  `cd $HOME/go/src/WordCount`
  
  Type the following commands in terminal:
+```rust
+//Will install Dep project management tool
+$ make deps
+```
 
-`#Will install Dep project management tool:`
 
-`$ make deps` 
+```rust
+//Will build the project and receive all dependencies
+$ make build
+```
 
--_Will build the project and receive all dependencies:_
-
-`$ make build`
-
--_Will run the program:_
-
-`$ make run`
-   
-_The program accept 2 parameters where <b>-input</b> is the file where will be processed and  <b>-output</b> will be the file name after processed and generated!_
-`$ go run main.go -input (Filename.txt) -output (Output filename.csv)`
+```rust
+//The program accept 2 parameters where -input is the file where will be processed and -output will be the file name after processed and generated.
+//Will run the program
+$ make run
+```
     
--_Run Tests:_
-
-`$ make test`
-  
+ ```rust
+//Run Tests
+$ make test
+ ```
   
   Should appear for you in terminal:
   - Bytes Read
