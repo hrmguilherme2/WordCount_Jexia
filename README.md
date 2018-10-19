@@ -1,5 +1,11 @@
 # WordCount Jexia.
+## Requirements
 
+- Golang Dep project management
+https://github.com/golang/dep
+
+- Golang Glow MapReduce Framework
+https://github.com/chrislusf/glow
 
 ## Installation
 <b>Step 1:</b>
@@ -52,6 +58,6 @@ _The program accept 2 parameters where <b>-input</b> is the file where will be p
   - Bytes Write
   - Execution Time
   
-  >The final file result will generate in the same folder where you extracted this project!
+  >The result will generate an .CSV file in the same folder where you extracted this project!
   ![Alt Text](https://i.imgur.com/YRmyudV.png)
 
