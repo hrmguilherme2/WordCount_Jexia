@@ -14,9 +14,9 @@
 
 <b>Step 2:</b>
  
-Download and extract the project in src folder, this folder is where golang was installed.
+Download and copy the project in src folder, this folder is where golang was installed.
 
-Open terminal and type:
+Open terminal, type and copy:
  `open $HOME/go/src`
 
 
@@ -29,16 +29,26 @@ Open terminal and navigate to the WordCount folder.
  
    > _Will install Dep project management tool:_
 
-   `make deps` 
+   - `make deps` 
 
    > _Will build the project and receive all dependencies:_
 
-   `make build`
+  - `make build`
 
    > _Will run the program:_
 
-   `make run`
+   - `make run`
 
   > _Run Tests:_
 
-  `make test`
+ -  `make test`
+  
+  
+  Should appear for you in terminal:
+  - Bytes Read
+  - Bytes Write
+  - Execution Time
+  
+  >The final file result will generate in the same folder where you extracted this project!
+  ![Alt Text](https://i.imgur.com/YRmyudV.png)
+
