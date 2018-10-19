@@ -30,7 +30,7 @@ Open terminal, type and copy:
 ## Usage
 Open terminal and navigate to the WordCount folder.
 
- `cd $HOME/go/src/WordCount`
+`$ cd $HOME/go/src/WordCount`
  
  Type the following commands in terminal:
 ```rust
