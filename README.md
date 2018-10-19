@@ -34,7 +34,7 @@ Open terminal and navigate to the WordCount folder.
  
  Type the following commands in terminal:
 
--_Will install Dep project management tool:_
+`#Will install Dep project management tool:`
 
 `$ make deps` 
 
