@@ -33,25 +33,25 @@ Open terminal and navigate to the WordCount folder.
  `cd $HOME/go/src/WordCount`
  
  Type the following commands in terminal:
- 
-  - _Will install Dep project management tool:_
 
-    `make deps` 
+-_Will install Dep project management tool:_
 
-   -_Will build the project and receive all dependencies:_
+`$ make deps` 
 
-   `make build`
+-_Will build the project and receive all dependencies:_
 
-   - _Will run the program:_
+`$ make build`
 
-    `make run`
+-_Will run the program:_
+
+`$ make run`
    
 _The program accept 2 parameters where <b>-input</b> is the file where will be processed and  <b>-output</b> will be the file name after processed and generated!_
    - go run main.go -input (Filename.txt) -output (Output filename.csv)
     
-  > _Run Tests:_
+-_Run Tests:_
 
- -  `make test`
+`$ make test`
   
   
   Should appear for you in terminal:
